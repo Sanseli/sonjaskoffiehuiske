@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <main>
       <Navbar/>
-      <div className='absolute w-full h-full max-h-[763px]'>
-        <Image src={bgImage} fill alt="koffie" priority quality={100}/>
+      <div className='absolute w-full h-full max-h-[85vh] overflow-hidden'>
+        <Image src={bgImage} alt="koffie"  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto', justifyContent: 'center' }}/>
       </div>
     </main>
   )
